@@ -1,0 +1,117 @@
+{
+  "name": "Ethan Wiegert",
+  "title": "Software Developer | JavaScript | C# | React | SQL",
+  "location": "Atlanta, Georgia, United States",
+  "contact": {
+    "phone": "8642802564 (Mobile)",
+    "email": "ewiegert99@gmail.com",
+    "linkedin": "www.linkedin.com/in/ethan-wiegert"
+  },
+  "top_skills": ["Open AI", "Redux", "Web Development"],
+  "languages": ["English (Native or Bilingual)"],
+  "summary": "As a Software Developer, I leverage my skills to build engaging and full-stack applications. I also have experience in integrating Open AI API to enhance the functionality and interactivity of my projects. Before becoming a Software Developer, I completed a software engineering bootcamp at Thinkful, where I learned industry best practices and standards, focusing on JavaScript, HTML, CSS, React Native, Node.js, PostgreSQL, RESTful APIs, algorithms, and data structures. I also hold a BS in Microbiology from Clemson University, which gives me an advantage in working in a fast-paced environment and delivering results with quality in mind.",
+  "experience": [
+    {
+      "company": "Lexicon Tech Solutions",
+      "position": "Software Developer",
+      "duration": "April 2024 - Present (1 year 3 months)",
+      "description": "Full-stack developer emphasizing in C#, Blazor, SQL, Javascript, HTML5, and CSS."
+    },
+    {
+      "company": "Freelance",
+      "position": "Freelance Software Engineer",
+      "duration": "December 2023 - April 2024 (5 months)",
+      "projects": [
+        {
+          "name": "Decide-My-Dinner Application",
+          "url": "https://github.com/ethanwiegert/decide-my-dinner",
+          "details": [
+            "Built a React Application to aid in selecting what restaurant to eat at.",
+            "Implemented conditionally rendering features.",
+            "Integrated Open AI API into \"Find My Dinner\" feature.",
+            "Integrated React Redux into application.",
+            "Technology: React, HTML5, CSS, Bootstrap, Open AI API, Redux"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Thinkful",
+      "position": "Software Engineering Student",
+      "duration": "June 2023 - December 2023 (7 months)",
+      "description": "Acquired comprehensive knowledge of industry best practices and software development standards, focusing on JavaScript, HTML5, CSS3, React Native, Node.js, PostgreSQL, RESTful APIs, algorithms, and data structures.",
+      "projects": [
+        {
+          "name": "Recipe Tracker Application",
+          "url": "https://github.com/ethanwiegert/project-recipe-tracking-app",
+          "details": [
+            "Built a React application to allow saving recipe information.",
+            "Implemented the single responsibility principle with React components.",
+            "Technology: React, HTML5, CSS, Bootstrap"
+          ]
+        },
+        {
+          "name": "Encryption/Decryption Application",
+          "url": "https://github.com/ethanwiegert/decoder-ring",
+          "details": [
+            "Built out an application that takes user inputs and encodes them into secret messages using several encoding algorithms",
+            "Implemented feature to decode encoded messages",
+            "Technology: Javascript ES6, HTML5, Node.js"
+          ]
+        },
+        {
+          "name": "Responsive AirBnB Frontend Application",
+          "url": "https://github.com/ethanwiegert/frontend-foundations",
+          "details": [
+            "Built a frontend lookalike of AirBnB static website with responsive views for mobile, tablets and desktop",
+            "Technology: HTML, CSS, Flexbox"
+          ]
+        },
+        {
+          "name": "Library Application",
+          "url": "https://github.com/ethanwiegert/project-local-library",
+          "details": [
+            "Assembled the functionality for an application that allows users to search, review and check out books from their local neighborhood.",
+            "Created search and sorting functions to allow users to know what books were available and their rating.",
+            "Coded using JavaScript functions that are built to enable the expansion of the library with little to no need for code refactoring.",
+            "Technology: JavaScript ES6, Bootstrap, HTML5, Node.js"
+          ]
+        },
+        {
+          "name": "Study Tool Application",
+          "url": "https://github.com/ethanwiegert/flashcards-project",
+          "details": [
+            "Created an application that allows users to create, edit, and delete decks and cards within them.",
+            "Created a REST API and middleware functions to allow user(s) to create, read, update and delete their perfect deck of study cards.",
+            "Defined routes and URLs, and used state over multiple components.",
+            "Technology: JavaScript, React, Express, Knex, HTML and CSS. Progress/Versions tracked with Git."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Exela Pharma Sciences LLC",
+      "position": "Microbiologist I",
+      "duration": "August 2021 - August 2022 (1 year 1 month)",
+      "location": "Lenoir, North Carolina, United States",
+      "responsibilities": [
+        "Analyzed over 200 viable microbial samples associated with batches of medicine and the production environment.",
+        "Guided the department on improving training for laboratory tasks.",
+        "Analyzed over 30 out of trend or out of study results for the department and wrote respective occurrence documents.",
+        "Aided the team on all forms of testing from the raw material to the finished product."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Clemson University",
+      "degree": "Bachelor of Science - BS, Microbiology, General",
+      "duration": "(2017 - 2021)"
+    },
+    {
+      "institution": "Keio University",
+      "degree": "Certificate of Completion, Summer Program",
+      "duration": "(June 2019 - August 2019)"
+    }
+  ]
+}

@@ -14,10 +14,12 @@ import {
 import { Textarea } from "@/components/ui/textarea"
 
 
+
+
 /*
 left to implement (for initial functionality):
 -chat setup and instructions
--linkedin pdf and text file summarizing some of my personal projects (do a google doc so it's easy to maintain)
+
 -testing
 -improving mobile design and functionality (utilize tailwind breakpoints)
 
@@ -29,10 +31,6 @@ future
 export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
 
-
-  async function Test(){
-    console.log("test")
-  }
 
   return (
     <div className="flex flex-col m-8 w-11/12-md py-12 ">
@@ -72,8 +70,6 @@ export default function Chat() {
           maxLength={200}
         />
       </form>
-      <br/>
-      <button onClick={Test}>Test</button>
     </div>
   );
 }
