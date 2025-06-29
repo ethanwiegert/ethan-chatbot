@@ -18,9 +18,7 @@ import { Textarea } from "@/components/ui/textarea"
 
 /*
 left to implement (for initial functionality):
--chat setup and instructions
-
--testing
+-testing and fine tuning
 -improving mobile design and functionality (utilize tailwind breakpoints)
 
 future
