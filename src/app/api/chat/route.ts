@@ -1,6 +1,5 @@
 import { openai } from '@ai-sdk/openai';
 import { streamText } from 'ai';
-import { promises as fs } from 'fs';
 import {profile, resume} from '../../../../public/data'
 
 // Allow streaming responses up to 30 seconds

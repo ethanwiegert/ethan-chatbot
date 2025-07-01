@@ -12,6 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Textarea } from "@/components/ui/textarea"
+import { ModeToggle } from "@/components/ui/mode-toggle"
 
 
 
@@ -32,6 +33,9 @@ export default function Chat() {
 
   return (
     <div className="flex flex-col m-8 w-11/12-md py-12 ">
+      <div className="flex absolute top-0 right-0 m-8">
+        <ModeToggle />
+      </div>
       {messages.length<1 ?         
       <Card>
           <CardHeader>
