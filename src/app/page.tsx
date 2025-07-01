@@ -4,14 +4,12 @@ import { useChat } from '@ai-sdk/react';
 
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Textarea } from "@/components/ui/textarea"
 import { ModeToggle } from "@/components/ui/mode-toggle"
 import { useEffect, useRef } from 'react';
 
