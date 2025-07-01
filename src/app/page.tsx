@@ -15,11 +15,6 @@ import { useEffect, useRef } from 'react';
 
 
 /*
-left to implement (for initial functionality):
--testing and fine tuning
--improving mobile design and functionality (utilize tailwind breakpoints)
--fixing scrollbar to bottom
-
 future
 -adding in more 'tools' for the ai
   *sending me an email of a question that it was unable to answer
@@ -48,7 +43,7 @@ export default function Chat() {
       {messages.length<1 ?         
       <Card>
           <CardHeader>
-            <CardTitle>"EthanBot"</CardTitle>
+            <CardTitle>EthanBot</CardTitle>
             <CardDescription>As if you were talking to me</CardDescription>
           </CardHeader>
           <CardContent>
@@ -61,7 +56,7 @@ export default function Chat() {
           </CardFooter>
         </Card> : null}
       {messages.map(message => (
-        <div key={message.id} className="">
+        <div key={message.id} >
           {message.role === 'user' ? <b>You</b> : <b>EthanBot</b>}
           {message.parts.map((part, i) => {
             switch (part.type) {
