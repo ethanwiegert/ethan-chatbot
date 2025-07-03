@@ -13,7 +13,6 @@ import {
 import { ModeToggle } from "@/components/ui/mode-toggle"
 import { useEffect, useRef } from 'react';
 
-
 /*
 future
 -adding in more 'tools' for the ai
@@ -35,11 +34,11 @@ export default function Chat() {
   }, [messages]);
 
   return (
-    <div className="flex flex-col mx-8 w-11/12-md py-12 h-screen text-sm md:text-lg">
-      <div className="flex absolute top-0 right-0 m-8">
+    <div className="flex flex-col h-screen text-sm md:text-lg">
+      <div className="flex absolute top-0 right-0 m-4">
         <ModeToggle />
       </div>
-      <div ref={chatContainerRef} className='overflow-y-scroll h-9/10'>
+      <div ref={chatContainerRef} className='overflow-y-scroll h-9/10 py-8 m-12'>
       {messages.length<1 ?         
       <Card>
           <CardHeader>
@@ -61,18 +60,18 @@ export default function Chat() {
           {message.parts.map((part, i) => {
             switch (part.type) {
               case 'text':
-                return <div key={`${message.id}-${i}`} id={`${message.id}`} className="py-4 m-8"><Card><CardContent>{part.text}</CardContent></Card></div>;
+                return <div key={`${message.id}-${i}`} id={`${message.id}`} className="pb-4 m-4"><Card><CardContent>{part.text}</CardContent></Card></div>;
             }
           })}
         </div>
       ))}
       </div>
-      <div className="flex absolute-bottom bottom-0 m-8 justify-center">
+      <div className="flex absolute-bottom bottom-0 m-8 justify-center align-center">
       <form onSubmit={handleSubmit} className='w-full'>
         <input
-          className="p-6 m-4 border border-zinc-300 dark:border-zinc-800 rounded shadow-xl w-full text-sm md:text-lg"
+          className="p-6 border border-zinc-300 dark:border-zinc-800 rounded shadow-xl w-full text-xs md:text-lg"
           value={input}
-          placeholder="Ask me anything regarding Ethan Wiegert's background and work."
+          placeholder="Ask me about Ethan's background."
           onChange={handleInputChange}
           maxLength={200}
         />
