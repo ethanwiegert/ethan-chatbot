@@ -20,7 +20,7 @@ future
 */
 
 export default function Chat() {
-  const { messages, input, handleInputChange, handleSubmit } = useChat();
+  const { messages, input, handleInputChange, handleSubmit, status } = useChat();
   const chatContainerRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if(messages.length>0)
@@ -32,6 +32,22 @@ export default function Chat() {
         }
     }
   }, [messages]);
+
+  function HandleStatuses()
+  {
+      switch(status)
+        {
+          case("submitted"):
+          {
+            return (<div className="loader"></div>)
+          }
+          case("error"):
+          {
+            return (<div className="d-flex flex-row"><p>Reponse Failed - We Apologize for the inconvenience</p></div>)
+          }
+        }
+      
+  }
 
   return (
     <div className="flex flex-col h-screen text-sm md:text-lg">
@@ -65,6 +81,7 @@ export default function Chat() {
           })}
         </div>
       ))}
+      <HandleStatuses/>
       </div>
       <div className="flex absolute-bottom bottom-0 m-8 justify-center align-center">
       <form onSubmit={handleSubmit} className='w-full'>
